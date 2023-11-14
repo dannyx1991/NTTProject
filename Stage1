@@ -3,3 +3,11 @@
 http://ntt-wiki.dvg.local/lib/exe/fetch.php?cache=&media=gns3-ntt-lab-stage1-toplogy-beginning.png
 ## End
 http://ntt-wiki.dvg.local/lib/exe/fetch.php?w=1000&tok=1fc27e&media=gns3-ntt-lab-stage1-toplogy-ending.png
+
+# Steps taken
+Add a FortiNet firewall, two Ethernet switches, and a Win10 workstation to the lab workspace.
+
+Link the WAN port on the firewall to the WAN-SWITCH.
+Link the LAN port on the firewall to the LAN-SWITCH.
+Link the DMZ port on the firewall to the DMZ-SWITCH.
+Link the Win10 workstation to the LAN-SWITCH.
